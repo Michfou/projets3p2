@@ -1,0 +1,112 @@
+.main-container {
+	width: 1020px;
+	margin: 50px auto;
+	position: relative;
+}
+
+.left-nav-container {
+	display: inline-block;
+	width:375px;
+	float: left;
+}
+
+.left-nav-link {
+	display: inline-block;
+	z-index: 90;
+	border-radius: 4px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 97px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.left-nav-link:hover {
+	cursor: pointer;
+}
+
+.left-nav-link[data-name="home"] {
+	background-color: rgb(229, 125, 4);
+	background-image: url("../images/camera-icon.png");
+	background-size: 140px 140px;
+	background-position: 19px 19px;
+}
+
+.left-nav-text-box[data-name="home"] > .left-nav-text {
+	background-color: rgb(229, 125, 4);
+}
+
+.left-nav-link[data-name="alarm-system"] {
+	background-color: #3465aa;
+	background-image: url("../images/camera-icon.png");
+	background-size: 140px 140px;
+	background-position: 19px 19px;
+}
+
+.left-nav-text-box[data-name="alarm-system"] > .left-nav-text {
+	background-color: #3465aa;
+}
+
+.left-nav-link[data-name="door-lock"] {
+	background-color: rgb(220, 0, 48);
+	background-image: url("../images/camera-icon.png");
+
+	background-size: 140px 140px;
+	background-position: 19px 19px;
+}
+
+.left-nav-text-box[data-name="door-lock"] > .left-nav-text {
+	background-color: rgb(220, 0, 48);
+}
+
+.left-nav-link-content {
+	display:inline-block;
+	height: 50px;
+	margin-top: 30px;
+	position: relative;
+	width: 100%;
+}
+
+.left-nav-link-text {
+	position: absolute;
+	right: 20px;
+}
+
+.content-container {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 100px;
+	padding: 10px;
+}
+
+.left-nav-text-container {
+	padding: 10px;
+}
+
+.left-nav-text-box {
+	display: inline-block;
+	height: 65px;
+	padding-top: 14px;
+	padding-bottom: 16px;
+	visibility: hidden;
+	margin-left: 30px;
+}
+
+.left-nav-text, .left-nav-text:hover {
+	position: relative;
+	z-index: 90;
+	background-color: gray;
+	border-radius: 4px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+	top: 10px;
+	padding: 10px;
+	float: left;
+	margin-top: 13px;
+}
