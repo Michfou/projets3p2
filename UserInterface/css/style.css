@@ -6,7 +6,6 @@
 
 .left-nav-container {
 	display: inline-block;
-	width:375px;
 	float: left;
 }
 
@@ -109,4 +108,18 @@
 	padding: 10px;
 	float: left;
 	margin-top: 13px;
+}
+
+p {
+	text-align: justify;
+}
+
+.ui-effects-wrapper { overflow: visible !important; }
+
+.alarm-system-content {
+	display: inline-block;
+}
+
+.camera-content {
+	display: none;
 }
